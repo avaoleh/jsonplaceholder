@@ -23,24 +23,23 @@ Create a new test.js file in your root folder to begin writing your API tests. F
 ### Routes
 All HTTP methods are supported. You can use http or https for the requests.
 
->GET	 /posts
->GET	 /posts/1
->GET	 /posts/1/comments
-> GET  /posts?userId=<...>&title=<...>
->GET	 /comments?postId=1
->GET  /posts/1/comments
->GET  /albums/1/photos
->GET  /users/1/albums
->GET  /users/1/todos
->GET  /users/1/posts
->POST /posts
->POST /users/1/todos
->POST /users/1/albums
->PUT	 /posts/1
->PUT  /users/1/posts
->PATCH	/posts/1
->DELETE	/posts/1
-
+GET	 /posts
+GET	 /posts/1
+GET	 /posts/1/comments
+GET  /posts?userId=<...>&title=<...>
+GET	 /comments?postId=1
+GET  /posts/1/comments
+GET  /albums/1/photos
+GET  /users/1/albums
+GET  /users/1/todos
+GET  /users/1/posts
+POST /posts
+POST /users/1/todos
+POST /users/1/albums
+PUT	 /posts/1
+PUT  /users/1/posts
+PATCH	/posts/1
+DELETE	/posts/1
 
 ### RUN tests:
 
